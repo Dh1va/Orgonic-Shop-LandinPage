@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+.border-test{
+  border: 2px solid red;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(248, 26, 92);
+}
+.nav-link {
+  margin: 0 10px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: black;
+
+}
+.search{
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  border: 2px solid rgb(248, 26, 92);
+    
+}
+.search:focus{
+  box-shadow: none !important;
+  border: 2px solid rgb(248, 26, 92);
+}
+h1{
+  font-weight: 700;
+}
+.btn{
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: rgb(248, 26, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.search-btn:hover{
+  border: 2px solid rgb(248, 26, 92);
+}
+.main{
+  background: url(/image/banner.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
+}
+.main h1{
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 90px;
+}
+.nm-btn{
+  background-color: rgb(248, 26, 92) ;
+  color: white;
+  border-radius: 60px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  height: 45px;
+  width: 35%;
+  margin-top: 10px;
+}
+h4.features{
+  text-transform: uppercase;
+  color: rgb(248, 26, 92) ;
+  font-size: 1rem;
+  margin-top: 15px;
+}
+.card:hover{
+  box-shadow: 0px 0px 18px -3px rgba(100, 99, 99, 0.75);
+  transition: 0.5s;
+}
+h5{
+  color: rgb(248, 26, 92);
+}
+.more{
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/image/portrait-young-surprised-pretty-woman-yellow-dress-holding-pineapple-funny-emotion-shocked-face-expression-summer-style-fruit-diet-mixed-race-isolated-holding-hands-up.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+.more h1{
+  color: white ;
+  font-weight: 500;
+  font-family: "Pacifico", cursive ;
+}
+.more h6{
+  color: white;
+}
+.footer{
+  background-color: black;
+  color: white;  
+}
+.ft-submit{
+  height: 47px;
+  width: 100px;
+  background: white;
+  margin-left: -20px;
+  border: 5 px solid white;
+  font-weight: 600;
+  
+}
+.footer input{
+  height: 45px;
+  width: 55%;
+  border: 2px solid white;
+  background: black ;
+  outline: none;
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.footer p{
+  margin: 0;
+}
